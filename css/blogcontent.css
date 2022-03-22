@@ -7,7 +7,7 @@ ul{
     display: grid;
     grid-template-columns: 70% 25%;
     align-content: flex-start;
-    
+     
     align-items: flex-start;
     justify-content: space-between;
     padding: 8vw;
@@ -42,6 +42,7 @@ ul{
     color: #757373;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 #content-container .content .post span {
     font-style: italic;
@@ -54,6 +55,12 @@ ul{
 #content-container .content .post a{
     color: #24254b;
 }
+#content-container .content .post blockquote {
+    text-align: justify;
+    padding-left: 30px;      
+}
+
+
 
 #content-container .content .post .author-box{
     display: flex;
@@ -125,11 +132,20 @@ ul{
 }
 
 @media  screen and (max-width:475px){
-     
-   #content-container .cate {
+      #content-container{
+        font-size: 15px;
+    }
+
+    #content-container .content .post h4 {
+        font-size: 14px;
+    }
+    
+    #content-container .cate {
         grid-template-columns: 100%;
         margin-top: 2rem;
     }
+
+
 }
 
     

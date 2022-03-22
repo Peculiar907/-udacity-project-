@@ -48,6 +48,14 @@ nav .nav-nav ul li a:hover{
 
 }
 
+@media screen and (min-width:540px){
+    .nav-nav ul a {
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+        
+    }
+}
+
 
 
 @media screen and (max-width:769px){
@@ -84,6 +92,8 @@ nav .nav-nav ul li a:hover{
 
 
     }
+    
+
      
 
 
